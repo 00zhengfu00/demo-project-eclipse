@@ -59,6 +59,49 @@
 
 
 <BR/><BR/>
+##代码结构
+
+####App 类：
+程序入口，做 RongIM.init 操作。
+
+####DemoApi 类：
+Demo 网络请求类
+
+####DemoContext 类：
+Demo 缓存类
+
+####RongCloudEvent 类：
+融云事件监听类
+
+####database 包：
+Demo 数据缓存
+
+####message 包:
+如何使用融云自定义消息，以及注册模板。
+#####1，ContactsProvider 会话扩展功能自定义
+#####2，AgreedFriendRequestMessage 演示如何自定义消息
+#####3，ContactNotificationMessageProvider 如何自定义消息模板
+#####4，NewDiscussionConversationProvider 讨论组 @ 消息展示
+
+####model 包：
+Demo model 模块
+
+####parser 包：
+Demo 使用的是 gson 作为解析工具，这个包下是对 json 的数据解析
+
+####utils 包：
+一些 Demo 中用到的 工具类
+
+####ui 包：
+包含了 Activity 、Fragment 以及 widget
+
+
+<BR/><BR/>
+##Demo 接口文档
+
+
+
+<BR/><BR/>
 #### 联系我们
 商务合作
 Email：<bd@rongcloud.cn>
